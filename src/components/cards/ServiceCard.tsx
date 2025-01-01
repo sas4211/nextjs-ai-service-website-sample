@@ -60,9 +60,9 @@ function ServiceCard({
   <div className="flex gap-2 items-center">
     <div>
       {darkArrow ? (
-        <Image src="/images/arrow_dark.png" alt="dark arrow icon" width={10} height={10} />
+        <Image src="/images/arrow_dark.png" alt="dark arrow icon" width={50} height={50} />
       ) : (
-        <Image src="/images/arrow_light.png" alt="light arrow icon" width={10} height={10} />
+        <Image src="/images/arrow_light.png" alt="light arrow icon" width={50} height={50} />
       )}
     </div>
     <p className={cn("text-p", darkArrow ? "text-black" : "text-white")}>
